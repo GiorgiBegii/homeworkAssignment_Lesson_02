@@ -1,6 +1,6 @@
 # Dice Game Angular Task
 
-Features:
+## Features:
 
 mplement a Dice game component. The component should have a button to roll 2 dice, the result of a current roll the 
 Win / Loss label (show Win in case the sum is 7), the history of rolls formatted like in the example.
@@ -13,7 +13,7 @@ Execute a first roll automatically at the component creation so nothing is empty
 when the UI is rendered.
 Feel free to use any styling
 
-Folder Structure: 
+## Folder Structure: 
 
 src/app/
  ├─ [dice-game](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_02/tree/main/src/app/dice-game)/
