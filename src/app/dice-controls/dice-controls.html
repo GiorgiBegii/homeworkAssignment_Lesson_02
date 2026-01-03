@@ -1,0 +1,11 @@
+<div class="controls">
+  <p>
+    Your result: {{ result.dice1 }} / {{ result.dice2 }}
+  </p>
+
+  <p class="status">
+    {{ result.isWin ? 'WIN 🎉' : 'LOSS ❌' }}
+  </p>
+
+  <button class="controls__btn" (click)="onRoll()">Roll dice</button>
+</div>

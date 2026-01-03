@@ -1,0 +1,13 @@
+<div class="cont">
+    <div class="diceGame">
+        <app-dice-controls
+        [result]="currentRoll"
+        (roll)="rollDice()">
+        </app-dice-controls>
+
+        <h3>History: </h3>
+        <p>
+        {{ history | rollHistory }}
+        </p>
+    </div>
+</div>
