@@ -1,4 +1,4 @@
-# Dice Game Angular Task
+# Dice Game Angular Task / [Live](https://homework-assignment-lesson-02.vercel.app/)
 
 ## Features:
 
