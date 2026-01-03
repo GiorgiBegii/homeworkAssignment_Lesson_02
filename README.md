@@ -1,4 +1,4 @@
-#Dice Game Angular Task
+# Dice Game Angular Task
 
 Features:
 
