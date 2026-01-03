@@ -1,59 +1,35 @@
-# HomeworkAssignmentLesson02
+Dice Game Angular Task
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.3.
+Features:
 
-## Development server
+mplement a Dice game component. The component should have a button to roll 2 dice, the result of a current roll the 
+Win / Loss label (show Win in case the sum is 7), the history of rolls formatted like in the example.
+It should be possible to solve this exercise without using directives.
+Use pipe for roll history formatting.
+Use interpolation properly.
+Implement a Win/Loss label and Roll button (inside green rectangle) as a different
+component. It should has input/output properties to interact with a parent component.
+Execute a first roll automatically at the component creation so nothing is empty
+when the UI is rendered.
+Feel free to use any styling
 
-To start a local development server, run:
+Folder Structure: 
 
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+src/app/
+ ├─ [dice-game](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_02/tree/main/src/app/dice-game)/
+ │   ├─ dice-game.component.ts
+ │   ├─ dice-game.component.html
+ │   └─ dice-game.component.scss
+ │
+ ├─ [dice-controls](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_02/tree/main/src/app/dice-controls)/
+ │   ├─ dice-controls.component.ts
+ │   ├─ dice-controls.component.html
+ │   └─ dice-controls.component.scss
+ │
+ ├─ [pipes](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_02/tree/main/src/app/pipes)/
+ │   └─ roll-history.pipe.ts
+ │
+ ├─ [models](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_02/tree/main/src/models)/
+ │   └─ roll.model.ts
+ │
+ └─ app.component.ts
