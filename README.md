@@ -2,7 +2,7 @@
 
 ## Features:
 
-mplement a Dice game component. The component should have a button to roll 2 dice, the result of a current roll the 
+Implement a Dice game component. The component should have a button to roll 2 dice, the result of a current roll the 
 Win / Loss label (show Win in case the sum is 7), the history of rolls formatted like in the example.
 It should be possible to solve this exercise without using directives.
 Use pipe for roll history formatting.
