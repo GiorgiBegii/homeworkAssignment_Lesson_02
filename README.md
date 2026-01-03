@@ -15,17 +15,18 @@ Feel free to use any styling
 
 **Folder Structure:**
 
-src/app/ ├─ [dice-game/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_02/tree/main/src/app/dice-game) 
-├─ dice-game.component.ts 
-├─ dice-game.component.html 
-├─ dice-game.component.scss 
-├─ [dice-controls/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_02/tree/main/src/app/dice-controls) 
-├─ dice-controls.component.ts 
-├─ dice-controls.component.html 
-├─ dice-controls.component.scss 
-├─ [pipes/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_02/tree/main/src/app/pipes) 
-├─ roll-history.pipe.ts 
-├─ [models/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_02/tree/main/src/models) 
-├─ roll.model.ts 
-├─ app.component.ts
+src/app/  
+├─ [dice-game/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_02/tree/main/src/app/dice-game)  
+├─ dice-game.component.ts  
+├─ dice-game.component.html  
+├─ dice-game.component.scss  
+├─ [dice-controls/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_02/tree/main/src/app/dice-controls)  
+├─ dice-controls.component.ts  
+├─ dice-controls.component.html  
+├─ dice-controls.component.scss  
+├─ [pipes/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_02/tree/main/src/app/pipes)  
+├─ roll-history.pipe.ts  
+├─ [models/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_02/tree/main/src/models)  
+├─ roll.model.ts  
+└─ app.component.ts
 
